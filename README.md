@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
+# Click-Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📄 Descrição
+Projeto DevStart para construir um contador de cliques com React​
 
-Currently, two official plugins are available:
+# 💻 Sobre o projeto
+Contador de cliques é um projeto desenvolvido para o DevStart com foco em useState, componentização e eventos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O desafio consistiu em criar um projeto completo com React
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 🚀 Como executar o projeto
+1. Clonar o repositório
+```bash
+https://github.com/henrymzs/click-counter.git
+cd clique-counter
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Instale dependencias
+```bash
+bun install ou npm install
 ```
+
+3. Inicie o projeto
+```bash
+bun dev ou npm run dev
+```
+
+# 🛠 Tecnologias
+- React
+- TypeScript
+- Vite
+- Tailwind
+
+# 💪 Como contribuir para o projeto
+1. Faça um fork do projeto
+
+2. Crie uma branch para sua feature:
+```bash
+git checkout -b feature/minha-feature
+```
+
+3. Commit suas mudanças:
+```bash
+git commit -m "feat: Adiciona responsividade mobile"
+```
+
+4. Push para a branch:
+```bash
+git push origin feature/minha-feature
+```
+
+5. Abra um Pull Request
+
+# 🦸 Autor
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/henrymzs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/henry-kaua)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:henrykaua21@gmail.com)
