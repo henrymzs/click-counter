@@ -1,12 +1,15 @@
-<center>
-  <h1>Click-Counter</h1>
-  <p>Projeto DevStart para construir um contador de cliques com React​.</p>
-  
-  ![Vite](https://img.shields.io/badge/Vite-181717?style=flat&logo=Vite)
-  ![React](https://img.shields.io/badge/React-181717?style=flat&logo=React)
-  ![Bun](https://img.shields.io/badge/Bun-181717?style=flat&logo=bun)
-  ![TypeScript](https://img.shields.io/badge/Typescript-181717?style=flat&logo=TypeScript)
-</center>
+<h1 align="center">Click-Counter</h1>
+
+<p align="center">
+  Projeto DevStart para construir um contador de cliques com React.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Vite-181717?style=flat&logo=Vite" />
+  <img src="https://img.shields.io/badge/React-181717?style=flat&logo=React" />
+  <img src="https://img.shields.io/badge/Bun-181717?style=flat&logo=bun" />
+  <img src="https://img.shields.io/badge/Typescript-181717?style=flat&logo=TypeScript" />
+</p>
 
 ### 💻 Sobre o projeto
 Contador de cliques é um projeto desenvolvido para o DevStart com foco em useState, componentização e eventos.
