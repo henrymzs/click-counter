@@ -1,20 +1,12 @@
-import Contador from './components/Contador.tsx';
+import Header from './components/layout/Header.tsx';
+import Main from './components/layout/Main.tsx';
 
 function App() {
-
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 text-center">
-      <header className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Exercício de React
-        </h1>
-        <p className="text-gray-600 text-lg">Este é um exemplo de contador em React</p>
-      </header>
-
-      <main>
-        <Contador />
-      </main>
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 
